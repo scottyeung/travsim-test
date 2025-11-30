@@ -1,1 +1,1 @@
-pnpm run commitizen # commitizen
+yarn run commitizen # commitizen
