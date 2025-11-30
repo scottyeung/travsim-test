@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 39 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="2">
+<g id="3">
+<g clip-path="url(#clip0_0_912)">
+<circle id="Ellipse 4" cx="36.6388" cy="0.452271" r="9.73889" stroke="var(--stroke-0, white)" stroke-width="5.18604"/>
+<path id="Ellipse 5 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M36.6388 8.22075C40.9292 8.22075 44.4073 4.74268 44.4073 0.452271C44.4073 -3.83814 40.9292 -7.31621 36.6388 -7.31621C32.3484 -7.31621 28.8703 -3.83814 28.8703 0.452271C28.8703 4.74268 32.3484 8.22075 36.6388 8.22075ZM36.6388 12.1812C43.1165 12.1812 48.3677 6.92995 48.3677 0.452271C48.3677 -6.02541 43.1165 -11.2766 36.6388 -11.2766C30.1611 -11.2766 24.9099 -6.02541 24.9099 0.452271C24.9099 6.92995 30.1611 12.1812 36.6388 12.1812Z" fill="var(--fill-0, #D2D1D6)"/>
+</g>
+</g>
+<path id="Union" d="M21.1743 0.467041H11.3618V7.85544C11.3618 8.23451 10.9447 8.46549 10.6234 8.26436L4.32831 4.32378L-0.000732422 10.7645L34.1775 33.4306L38.5065 26.8023L21.1743 15.1798V0.467041Z" fill="var(--fill-0, #F2F1F6)"/>
+<path id="Rectangle 2" d="M12.6292 0H15.8855H19.1418V16.342H12.6292V0Z" fill="url(#paint0_linear_0_912)"/>
+<path id="Rectangle 1" d="M11.3025 17.467H15.9156H20.5288V32.9045H11.3025V17.467Z" fill="var(--fill-0, #EEF0F6)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_912" x1="15.8855" y1="0" x2="15.8855" y2="16.342" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0C91FF"/>
+<stop offset="1" stop-color="#0077F7"/>
+</linearGradient>
+<clipPath id="clip0_0_912">
+<rect x="24.2468" y="0.904541" width="11.9399" height="12.3621" fill="white"/>
+</clipPath>
+</defs>
+</svg>

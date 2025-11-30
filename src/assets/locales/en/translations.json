@@ -1,0 +1,71 @@
+{
+    "home": {
+        "greeting": "Hello, world!"
+    },
+    "heroSection": {
+        "title": "eSIM for the Saint Vincent & Grenadines",
+        "excellent": "Excellent",
+        "basedOn": "Based on {{count}} Reviews on",
+        "bestValue": "Best value",
+        "choosePackage": "Choose your USA eSIM package",
+        "safeSecure": "Safe & Secure",
+        "checkout": "Checkout",
+        "quickEasy": "Quick & Easy",
+        "recharge": "Recharge",
+        "customerSupport": "24/7 Customer",
+        "hours": "Support",
+        "checkCompatibility": "Check Device Compatibility",
+        "description": "Description",
+        "networks": "Networks",
+        "returnsMoneyBack": "Returns & money back guarantee",
+        "usesNetworks": "Uses [Network1] and [Network2] in [country]",
+        "reliableCoverage": "Reliable nationwide coverage",
+        "dataSpeeds": "4G/5G data speeds",
+        "hotspotAllowed": "Hotspot / tethering allowed",
+        "readMore": "Read More"
+    },
+    "navbar": {
+        "whereToNext": "Where to next?",
+        "explore": "Explore",
+        "help": "Help",
+        "signIn": "Sign in | Sign up"
+    },
+    "useCases": {
+        "title": "Use your eSIM for United States of America to:",
+        "stayConnected": {
+            "label": "Stay Connected",
+            "title": "Stay Connected",
+            "description": "Whether you're in New York City, Los Angeles, or somewhere in between, stay connected to friends and family back home in South Africa.",
+            "feature1": "Crystal-clear audio",
+            "feature2": "Understand and speak with ease"
+        },
+        "navigate": {
+            "label": "Navigate with ease",
+            "title": "Navigate with ease",
+            "description": "From iconic landmarks like [Landmark or tourist attraction 1] and [landmark or tourist attraction 2] to hidden gems near [City in destination country that has a lot of tourist attractions], explore confidently and never lose your way.",
+            "feature1": "Hail a lift easily",
+            "feature2": "Understand and speak with ease"
+        },
+        "share": {
+            "label": "Share your adventure",
+            "title": "Share your adventure",
+            "description": "Post real-time updates from your adventure—like [activity 1 in city] or [activity 2 in city]",
+            "feature1": "Capture and share moments",
+            "feature2": "Capture and share videos"
+        },
+        "stream": {
+            "label": "Stream your favorite content",
+            "title": "Stream your favourite content",
+            "description": "Whether you're unwinding after a long day or traveling to your next destination, enjoy uninterrupted access to your favourite entertainment.",
+            "feature1": "Endless shows and movies",
+            "feature2": "Listen to your music, anytime"
+        },
+        "eHailing": {
+            "label": "e-Hailing",
+            "title": "e-Hailing",
+            "description": "Whether you're unwinding after a long day or traveling to your next destination, enjoy uninterrupted access to your favourite entertainment.",
+            "feature1": "Lorem ipsum until Ashley saves the day",
+            "feature2": "Lorem ipsum until Ashley saves the day"
+        }
+    }
+}

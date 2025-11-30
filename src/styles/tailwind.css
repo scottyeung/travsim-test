@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@config "../../tailwind.config.js";
+
+@layer base {
+	* {
+		font-family: "Roboto", system-ui, sans-serif;
+	}
+
+	body {
+		font-family: "Roboto", system-ui, sans-serif;
+	}
+}
