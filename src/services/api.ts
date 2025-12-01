@@ -1,4 +1,4 @@
-const API_KEY = "FILL_IN_YOUR_API_KEY";
+const API_KEY = "api_3dae3af703e1ecf3dbf5209fcae1e85cd4b23d6956d25122";
 const API_BASE_URL = "https://content.travsim.fr/api";
 
 export const fetchContent = async <T>(

@@ -66,18 +66,24 @@ const accordionData = [
     mainImage: '/assets/icons/use-cases/e-hailing.png',
     subIcons: [
       '/assets/icons/use-cases/uber.svg', // Uber
-      '/assets/icons/use-cases/lyft.svg', // Lyft
+      '/assets/icons/use-cases/lyft.png', // Lyft
     ],
     pills: [
       { icon: '/assets/icons/use-cases/uber.svg', text: 'Reliable rides with Uber' },
-      { icon: '/assets/icons/use-cases/lyft.svg', text: 'Get a Lyft anytime' },
+      { icon: '/assets/icons/use-cases/lyft.png', text: 'Get a Lyft anytime' },
     ],
   },
 ];
 
 
 const HorizontalAccordion = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState<number | null>(0);
+
+  const handleToggle = (index: number) => {
+    if (activeIndex !== index) {
+      setActiveIndex(index);
+    }
+  };
 
   return (
     <div className="w-full">
@@ -85,8 +91,10 @@ const HorizontalAccordion = () => {
         {accordionData.map((item, index) => (
           <button
             key={index}
-            onClick={() => setActiveIndex(index)}
-            className={`px-6 py-2 rounded-full transition-colors ${activeIndex === index ? `${item.backgroundColor} text-white` : 'bg-white text-gray-700 border'
+            onClick={() => handleToggle(index)}
+            className={`px-6 py-2 rounded-full transition-colors ${activeIndex === index
+              ? `${item.backgroundColor} text-white`
+              : 'bg-white text-gray-700 border'
               }`}
           >
             {item.title}
@@ -98,14 +106,15 @@ const HorizontalAccordion = () => {
           <motion.div
             key={index}
             layout
+            onClick={() => handleToggle(index)}
             initial={{ width: '10%' }}
             animate={{ width: activeIndex === index ? '70%' : '10%' }}
             transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-            className={`relative overflow-hidden ${item.backgroundColor} ${index === 0 ? 'rounded-l-2xl' : ''
+            className={`relative overflow-hidden cursor-pointer ${item.backgroundColor} ${index === 0 ? 'rounded-l-2xl' : ''
               } ${index === accordionData.length - 1 ? 'rounded-r-2xl' : ''
               }`}
           >
-            <div className="absolute inset-0 p-8 flex items-center justify-center">
+            <div className="absolute inset-0 p-8 flex items-end justify-center">
               {activeIndex === index ? (
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -121,7 +130,7 @@ const HorizontalAccordion = () => {
                       </div>
                       <p>{item.description}</p>
                     </div>
-                    <ul className="space-y-2 mt-10">
+                    <ul className="space-y-2 gap-4 flex flex-col">
                       {item.pills.map((pill, i) => (
                         <li key={i} className="flex items-center space-x-2">
                           <img src={pill.icon} alt="" className="w-12 h-12 bg-white rounded-full p-2" />
@@ -140,7 +149,7 @@ const HorizontalAccordion = () => {
               ) : (
                 <div className="flex flex-col space-y-4">
                   {item.subIcons.map((icon, i) => (
-                    <div key={i}><img src={icon} alt="" className="w-8 h-8" /></div>
+                    <div key={i}><img src={icon} alt="" className="w-12 h-12 bg-white rounded-full p-2" /></div>
                   ))}
                 </div>
               )}

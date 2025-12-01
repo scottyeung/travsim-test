@@ -12,8 +12,8 @@ export const WhyChooseUsCard = ({
 	description,
 }: WhyChooseUsCardProps): FunctionComponent => {
 	return (
-		<div className="flex flex-col gap-4 p-6 px-8 bg-[#F3F3F3] border border-[#BFC8D0] rounded-3xl h-full">
-			<div className="w-16 h-16 rounded-2xl flex items-center justify-center">
+		<div className="flex flex-col p-6 px-8 bg-[#F3F3F3] border border-[#BFC8D0] rounded-3xl h-full">
+			<div className="w-16 h-16 rounded-2xl flex">
 				{icon}
 			</div>
 			<div className="flex flex-col gap-2">
